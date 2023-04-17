@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Zilla+Slab:ital,wght@0,600;1,500&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #3A3B3C;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 600;
+    font-size: 4.5rem;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 600;
+    font-size: 3.25rem;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 500;
+    font-style: regular;
+    font-size: 2.5rem;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: blue;
+}
+
+a:link {
+    color: blue;
+ }
+
+strong {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+main {
+    min-height: calc(100vh - 300px);
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 2fr 8fr 2fr;
+    grid-column-gap: 2vw;
+    grid-template-rows: 1fr;
+    /*grid-template-areas: "blank content blank"*/
+    text-align: center;
+    padding: 50px 40px 0px 40px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 2rem;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+}
+
+.grid-layout_page {
+    display: grid;
+    grid-template-columns: 3fr 6fr 3fr;
+    grid-column-gap: 2vw;
+    grid-template-rows: 1fr;
+    /*grid-template-areas: "blank content blank"*/
+    padding: 50px 0px 0px 0px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .grid-layout_page {
+        display: grid;
+        grid-template-columns: 1fr 10fr 1fr;
+        grid-column-gap: 2vw;
+        grid-template-rows: 1fr;
+        /*grid-template-areas: "content blank blank"*/
+    }
+}
+
+img {
+    padding: 0px 0px 20px 0px;
+}
+
+.contact-footer {
+    display: grid;
+    grid-template-columns: 3fr 6fr 3fr;
+    grid-column-gap: 2vw;
+    grid-template-rows: 1fr;
+    /*grid-template-areas: "blank content blank"*/
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+}
+
+.site-footer {
+    display: grid;
+    grid-template-columns: 12fr;
+    grid-column-gap: 1vw;
+    grid-template-rows: 1fr;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0px 0px 0px 0px;
+}
